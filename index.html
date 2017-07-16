@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 	<html>
+
 	<head>
 		<title>Temperature Converter</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
+
 	<body>
-		<h1>Temperature Converter</h1>
+
+		<div class="container">
+
+			<h1>Temperature Converter</h1>
+
+			<form>
+				<div>
+					<label for="user_temperature">Enter A Temperature:</label><br>
+					<input type="number" name="user_temperature" id="user_temperature">
+				</div>
+				<div>
+					<p class="description">Convert Your Value To:</p>
+					<input type="radio" name="farOrCel" value="fahrenheit">Fahrenheit
+					<input type="radio" name="farOrCel" value="celsius">Celsius
+				</div>
+				<div>
+					<button id="temp-btn">TempHere</button>
+				</div>
+				<div>
+					<button type="reset">Reset</button>
+				</div>
+			</form>
+
+			<div id="temp-display">
+				<h2>Conversion:</h2>
+
+				
+				
+			</div>
+
+		</div>
 
 		<script type="text/javascript" src="converter.js"></script>
 	</body>
