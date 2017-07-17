@@ -12,9 +12,9 @@
 
 			<h1>Temperature Converter</h1>
 
-			<form>
+			<div id="temp-form">
 				<div>
-					<label for="user_temperature">Enter A Temperature:</label><br>
+					<label for="user_temperature">Enter A Temperature (F or C):</label><br>
 					<input type="number" name="user_temperature" id="user_temperature">
 				</div>
 				<div>
@@ -23,12 +23,12 @@
 					<input type="radio" name="farOrCel" value="celsius">Celsius
 				</div>
 				<div>
-					<button id="temp-btn">TempHere</button>
+					<button id="temp-btn">Convert!</button>
 				</div>
 				<div>
 					<button type="reset">Reset</button>
 				</div>
-			</form>
+			</div>
 
 			<div id="temp-display">
 				<h2>Conversion:</h2>
