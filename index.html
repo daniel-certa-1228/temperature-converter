@@ -12,14 +12,14 @@
 
 			<h1>Temperature Converter</h1>
 
-			<div id="temp-form">
+			<form id="temp-form">
 				<div>
 					<label for="user_temperature">Enter A Temperature (F or C):</label><br>
 					<input type="number" name="user_temperature" id="user_temperature">
 				</div>
 				<div>
 					<p class="description" id="value-select">Convert Your Value To:</p>
-					<input type="radio" name="farOrCel" value="fahrenheit" id="fahrenheit">Fahrenheit
+					<input type="radio" name="farOrCel" value="fahrenheit" id="fahrenheit" checked>Fahrenheit
 					<input type="radio" name="farOrCel" value="celsius" id="celsius">Celsius
 				</div>
 				<div>
@@ -28,13 +28,11 @@
 				<div>
 					<button id="reset-btn">Reset</button>
 				</div>
-			</div>
+			</form>
 
 			<div id="temp-display">
 				<h2>Conversion:</h2>
-
-				
-				
+				<h3 id="final-temperature"></h3>
 			</div>
 
 		</div>
